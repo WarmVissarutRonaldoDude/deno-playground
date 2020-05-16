@@ -1,10 +1,15 @@
 ### Deno Playground
 For experimental with deno https://deno.land/
 
+### Install Deno
+https://deno.land/#installation
+
 ### Run
 - create `.env` from `.env.example`
-- `deno run --allow-read --allow-env --allow-net src/index.ts`
+- `. ./start`
 
 ### Bundle
-- `deno bundle src/index.ts ./app.js`
-- `deno run --allow-read --allow-env --allow-net app.js`
+- `. ./bundle.sh`
+- `. ./start prod`
+or
+- `. ./start bundle` will auto bundle before running app.
