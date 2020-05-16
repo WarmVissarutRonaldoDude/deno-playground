@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.50.0/http/server.ts";
+import { serve } from './deps.ts';
 import { EnvConfig, loadEnvConfig } from './config.ts';
 const DEFAULT_PORT = 8000;
 const PORT = Number(
