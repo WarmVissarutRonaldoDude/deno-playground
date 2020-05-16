@@ -11,5 +11,6 @@ https://deno.land/#installation
 ### Bundle
 - `. ./bundle.sh`
 - `. ./start prod`
+
 or
 - `. ./start bundle` will auto bundle before running app.
